@@ -1,0 +1,11 @@
+public class Revue extends Ressource {
+    private String numero;
+    
+    public Revue(int id, String titre, String auteur, String type, String numero) {
+        super(id, titre, auteur, type);
+        this.numero = numero;
+    }
+    
+    public String getNumero() { return numero; }
+    public void setNumero(String numero) { this.numero = numero; }
+}
